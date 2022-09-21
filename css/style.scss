@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;1,400;1,600&display=swap');
+
+body {
+    background: linear-gradient(90deg, #4B4B4B, #000);
+    font-family: 'Poppins', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.adresas-box {
+    background-color: #fff;
+    width: 50%;
+    margin: auto;
+    border-radius: 15px;
+
+    .adress {
+        font-weight: 600;
+    }
+}
+
+.navigation-box {
+    background: linear-gradient(90deg, #4B4B4B, #000);
+}
+
+.tel-numeris-box {
+    width: 50%;
+    margin: auto;
+
+    .tel-numeris {
+        font-weight: 600;
+        color: #fff;
+    }
+}
+
+.col {
+    padding: 0px;
+}
+
+
+
+.products {
+    background: white;
+
+    .product-img-box {
+
+
+        .product-img {
+            width: 50%;
+            margin: auto;
+        }
+    }
+
+    .product-description-box {
+        background-color: #FFC668;
+
+        .product-description {
+            .product-description-text {
+                font-weight: 600;
+                color: #fff;
+            }
+
+            .product-description-title {
+
+                .product-description-title-text {
+                    font-weight: 400;
+                    font-size: 18px;
+                }
+            }
+
+
+            .daugiau-button {
+                border-radius: 15px;
+                background-color: white;
+                border: 0px;
+                padding: 0px 20px 0px 20px;
+
+                &:hover {
+                    background-color: #29CFE3;
+                    transition: all 0.5s;
+                }
+            }
+        }
+    }
+}
